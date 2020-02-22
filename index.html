@@ -6,7 +6,18 @@
         </script>
 
         -->
-
+        <style>
+        .video_wrap {
+        position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    height: 100vh;
+    min-height: 880px;
+        }
+        </style>
     </head>
 
     <body> 
@@ -18,8 +29,8 @@
         <h3 align="center">김주원 * 송송이<br><br>
             2020.05.30 SAT 12:00 PM<br><br>
             소풍컨벤션웨딩 7층 라온제나홀<br></h3>
-        <div>
-        <video id="myVideo" width="100%" loop autoplay muted="muted" playinline="true" class="video-autoplay">
+        <div class=vide-wrap">
+        <video autoplay muted playsinline >
 
             <source src="mp4/wedding.mp4" type="video/mp4">
               
